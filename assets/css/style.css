@@ -1,0 +1,142 @@
+/* cuerpo con fuentes solicitadas*/
+body {
+  font-family: "Raleway", "Open Sans";
+  color:white;
+  background-color: black;
+}
+
+ .navbar {
+  background-color: transparent !important;
+  color:white;
+}
+
+/* smooth a sroll*/
+
+ .bg-interno{
+  background-color: #16a2b7;
+  transition: all 2s ease;
+ }
+
+.fixed-top {
+  display: flex;
+  padding: .5rem 3rem;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {.fixed-top {
+  padding: .5rem 1rem;
+  align-items: auto;
+  flex-wrap: wrap
+}
+}
+
+.h1 {
+  font-family: "Raleway";
+  font-size: 400;
+}
+
+.container_header{
+  margin-left: 0;
+  margin-right: 0;
+} 
+
+/* Seccion Quienes somos?*/
+
+.container_h1 {
+  margin-left: 0;
+  margin-right: 0;
+} 
+
+.hr_linea {
+  background-color: #16a2b7;
+  height:0.05em;
+}
+
+.card0 {  
+  background-color: black;
+}
+
+.card-body01{  
+  background-color: #16a2b7;  
+  padding:0;
+}
+
+.fa-iconos{
+  font-size: 2em;
+  color: #fff;
+}
+
+.card-body02 {  
+  background-color: black;
+  color:white;
+  padding:0;
+  margin:0;
+  text-align:left;
+}
+
+.card-body00{  
+  background-color:white;;  
+  margin-top: 1.5em;
+}
+
+/* Seccion destacados*/
+
+.card-body03{ 
+  background-color: #16a2b7;  
+  color:white;
+  text-align:left;
+  height:17em;
+  padding: 1.25em;
+}
+
+@media (max-width: 576px){.card-body03, .card-body02, .card-body01, .card0 {
+  padding: 10%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card-body03 {
+    padding: .75em;
+    height: auto;
+} 
+}
+
+.card-imagen{
+  height:140px;
+}
+
+.card-text {
+  font-size: 11.1pt;
+}
+
+/* footer*/
+
+.page-footer{
+  background-color: #16a2b7;
+}
+
+footer {
+  color:white;
+  font-weight: bold;
+  background-color: #16a2b7;
+  font-family: "Raleway";
+  font-size: 400;
+  position: absolute;
+  width: 100%;
+  padding:2px;
+  display: flex;
+}
+
+ .icons {
+   display: flex;
+}
+ 
+ /* Botones de redes sociales*/
+.btn{
+  width:20%;
+  color:#16a2b7;
+  margin:.5em;
+  padding:.5em;
+  background-color: white;
+}
+
